@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
-    /* agrega la fuente y color de las letras, y la iagen de fondo */
+    /* agrega la fuente y color de las letras, y la imagen de fondo */
     font-family: 'Montserrat', sans-serif;
     color: rgb(19, 15, 15);
     background-image: url(blue-background-image.png);
