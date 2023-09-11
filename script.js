@@ -11,8 +11,8 @@ CALCULAR.addEventListener('dblclick', () => {
         if (DATO > 30) {
             let flujo = calcFlujo(DATO);
             let sc = ((flujo * 4) + 7) / (flujo + 90);
-            FLU.innerHTML = 'Sc * 1500 = ' + Math.round(flujo * 1500);
-            MAN.innerHTML = 'Sc * 2000 = ' + Math.round(flujo * 2000);
+            FLU.innerHTML = 'Sc * 1500 = ' + Math.round(sc * 1500);
+            MAN.innerHTML = 'Sc * 2000 = ' + Math.round(sc * 2000);
             FLU.style.display = 'block';
             MAN.style.display = 'block';
         } else {
