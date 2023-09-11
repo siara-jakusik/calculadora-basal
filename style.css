@@ -9,8 +9,8 @@ body {
 
 #contenedor {
     /* Estas  lineas se encargan de centrar el div vertical y horizontalmente */
-    width: 80vw;
-    height: 80vh;
+    width: 70vw;
+    height: 60vh;
     text-align: center;
     position: absolute;
     inset: 0;
@@ -35,31 +35,24 @@ body {
     width: 50%;
     height: 100%;
     float: left;
-    /* estas lineas modifican el color, tamaño de las letras y alineacion del elemento */
+    /* estas lineas modifican el color de las letras y alineacion del elemento */
     color: #f6f5f7;
     background: #26697d;
-    font-size: 0.8125em;
     text-align: justify;
+    font-size: 0.8125em;
 }
 
 .contenido {
     /* Estas lineas van a centrar el contenido verticalmente dentro de cada div */
     position: relative;
-    top: 30%;
+    top: 50%;
     transform: translateY(-50%);
     overflow: hidden;
     padding: 30px;
 }
-
-.titulo {
-    /* estas lineas centran los titulos*/
-    position: relative;
-    top: 25%;
-    transform: translateY(-50%);
-    overflow: hidden;
-    text-align: center;
+.itemResultado{
+    font-size: 0.9em;
 }
-
 input {
     /* estas lineas agregan, modifican el borde y el fondo de la barra de ingreso de datos*/
     padding: 5px 20px;
@@ -108,4 +101,4 @@ button:active {
     font-size: 25px;
     margin-bottom: 5px;
     display: none;
-}
+} 
